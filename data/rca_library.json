@@ -1,0 +1,94 @@
+﻿{
+  "HPLC_AIR_BUBBLE": [
+    {
+      "cause": "Improper mobile phase degassing allowing dissolved gases to form bubbles in the flow path",
+      "category": "Human Error",
+      "weight": 0.35
+    },
+    {
+      "cause": "Incomplete system purging after solvent preparation or line changeover",
+      "category": "Human Error",
+      "weight": 0.4
+    },
+    {
+      "cause": "Loose suction-side tubing or fitting allowing air ingress into the pump",
+      "category": "Instrument Error",
+      "weight": 0.28
+    },
+    {
+      "cause": "Pump seal wear or check valve malfunction causing unstable solvent delivery",
+      "category": "Instrument Error",
+      "weight": 0.24
+    }
+  ],
+  "HPLC_BASELINE_FLUCTUATION": [
+    {
+      "cause": "Air trapped in the detector flow cell causing absorbance instability",
+      "category": "Instrument Error",
+      "weight": 0.31
+    },
+    {
+      "cause": "Column not adequately equilibrated before assay sequence",
+      "category": "Method Error",
+      "weight": 0.19
+    },
+    {
+      "cause": "Temperature-related solvent outgassing affecting baseline stability",
+      "category": "Method Error",
+      "weight": 0.14
+    }
+  ],
+  "HPLC_GENERAL": [
+    {
+      "cause": "Detector lamp instability affecting signal consistency",
+      "category": "Instrument Error",
+      "weight": 0.12
+    },
+    {
+      "cause": "Incorrect mobile phase preparation impacting chromatographic performance",
+      "category": "Method Error",
+      "weight": 0.17
+    }
+  ],
+  "GC_GENERAL": [
+    {
+      "cause": "Carrier gas flow instability",
+      "category": "Instrument Error",
+      "weight": 0.24
+    },
+    {
+      "cause": "Injector contamination affecting reproducibility",
+      "category": "Material Error",
+      "weight": 0.2
+    }
+  ],
+  "DISSOLUTION_GENERAL": [
+    {
+      "cause": "Incorrect deaeration of dissolution medium",
+      "category": "Method Error",
+      "weight": 0.3
+    },
+    {
+      "cause": "Paddle or basket alignment issue",
+      "category": "Instrument Error",
+      "weight": 0.25
+    }
+  ],
+  "DEFAULT_GENERAL": [
+    {
+      "cause": "Deviation requires review of analyst execution against approved procedure",
+      "category": "Human Error",
+      "weight": 0.1
+    },
+    {
+      "cause": "Deviation requires verification of equipment condition and maintenance status",
+      "category": "Instrument Error",
+      "weight": 0.1
+    },
+    {
+      "cause": "Deviation requires review of method suitability and material condition",
+      "category": "Method Error",
+      "weight": 0.1
+    }
+  ]
+}
